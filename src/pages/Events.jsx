@@ -66,8 +66,8 @@ export default function Events() {
                             key={cat}
                             onClick={() => setSelectedCategory(cat)}
                             className={`px-4 py-1.5 rounded-full text-sm font-medium transition ${selectedCategory === cat
-                                    ? 'bg-orange-500 text-white'
-                                    : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-400'
+                                ? 'bg-orange-500 text-white'
+                                : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-400'
                                 }`}
                         >
                             {cat}
